@@ -1,0 +1,79 @@
+.list-item {
+    margin: 0.5px;
+    position: relative;
+    cursor: url(./cur.cur), auto;
+
+}
+
+/* 
+.list-item::before {
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 0%;
+    background-color: rgb(85, 135, 192);
+    transition-duration: 0.9s;
+}
+
+.list-item::before {
+    top: 0;
+    left: 0;
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 0%;
+    background-color: rgb(85, 135, 192);
+    transition-duration: 0.9s;
+}
+
+.list-item:hover::before {
+    width: 100%;
+}
+
+ */
+
+
+
+
+
+.title {
+    text-align: center;
+    position: relative;
+    transition: 0.4s;
+    transition: 1;
+}
+
+.title::after {
+    position: absolute;
+    content: "";
+    width: 0%;
+    height: 1px;
+    background-color: rgb(0, 81, 255);
+    right: 0%;
+    bottom: 0;
+    transition: 1s;
+}
+
+.container:hover .title::after {
+    width: 200px;
+    right: 0;
+}
+
+.title::before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 1px;
+    top: 0;
+    background-color: rgb(255, 0, 0);
+    left: 0%;
+    transition: 1s;
+}
+
+
+.container:hover .title::before {
+    width: 200px;
+    left: 0%;
+}
