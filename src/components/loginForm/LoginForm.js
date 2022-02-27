@@ -16,10 +16,7 @@ function LoginForm({ Login, error }) {
         <form onSubmit={submitHandler}>
           <div className="form-inner">
             <Div>
-
             <Img src={rasm} alt="" />
-
-
             </Div>
             <h2>Login</h2>
             <div className="form-group">

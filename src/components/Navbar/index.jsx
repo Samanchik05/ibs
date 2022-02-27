@@ -42,12 +42,12 @@ function Navbar() {
               <p>History</p>
             </Link>
           </LiBox>
-          <LiBox className="container">
+          {/* <LiBox className="container">
             <Link to="/settings" className="link list-item title">
               <img src={SettingImg} />
               <p>Setting</p>
             </Link>
-          </LiBox>
+          </LiBox> */}
         </ul>
       </div>
     </NavbarWrapper>

@@ -256,6 +256,7 @@ export const Loading = styled.div `
   display: flex;
   justify-content: center;
   margin-left:100px;
+  border-radius: 100%;
   
   div {
     width: 1rem;
@@ -266,34 +267,64 @@ export const Loading = styled.div `
     border-radius: 50%;
     animation: .5s linear 1s infinite alternate anima;
     &:nth-child(1) {
-      animation-delay: 0.1s;
+      animation-delay: 0.1,5s;
       background-color: pink;
     }
     &:nth-child(2) {
-      animation-delay: 0.3s;
+      animation-delay: 0.2s;
       background-color: yellow;
     }
 
     &:nth-child(3) {
-      animation-delay: 0.6s;
+      animation-delay: 0.2,5s;
       background-color: red;
     }
 
     &:nth-child(4) {
-      animation-delay: 0.9s;
+      animation-delay: 0.3s;
       background-color: grey;
 
     }
 
     &:nth-child(5) {
-      animation-delay: 1.2s;
+      animation-delay: 0.3,5s;
       background-color: blue;
 
     }
 
     &:nth-child(6) {
-      animation-delay: 1.5s;
+      animation-delay: 0.4s;
       background-color: green;
+
+    }
+    &:nth-child(7) {
+      animation-delay: 0.4,5s;
+      background-color: grey;
+
+    }
+    &:nth-child(8) {
+      animation-delay: 0.5s;
+      background-color: blue;
+
+    }
+    &:nth-child(9) {
+      animation-delay: 0.5,5s;
+      background-color: green;
+
+    }
+    &:nth-child(10) {
+      animation-delay: 0.6,5s;
+      background-color: orange;
+
+    }
+    &:nth-child(11) {
+      animation-delay: 0.7s;
+      background-color: yellow;
+
+    }
+    &:nth-child(12) {
+      animation-delay: 0.7,5s;
+      background-color: red;
 
     }
   }

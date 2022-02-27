@@ -15,7 +15,7 @@ import styled from "styled-components";
 
 
 
-export const HistoryPage = styled.div`
+export const HistoryPage = styled.div `
  width:83.3%;
  margin-top: 100px;
  padding:20px;
@@ -26,7 +26,7 @@ export const HistoryPage = styled.div`
  justify-content:space-between;
  flex-wrap:wrap;
 `;
-export const LoadingPage = styled.div`
+export const LoadingPage = styled.div `
  .loading {
   display: flex;
   justify-content: center;
@@ -60,7 +60,7 @@ export const LoadingPage = styled.div`
 }
 `;
 
-export const Card1 = styled.div`
+export const Card1 = styled.div `
   width:32.5%;
   height:200px;
   padding:4px;
@@ -92,7 +92,6 @@ export const Card1 = styled.div`
       border-collapse: collapse;
     }
     th{
-      color:red;
       font-weight:500;
       text-align:left;
       border-bottom:1px solid black;
@@ -121,44 +120,73 @@ export const Loadingg = styled.div `
   display: flex;
   justify-content: center;
   margin-left:450px;
-  
   div {
     width: 1rem;
     height: 1rem;
     margin: 2rem 0.3rem;
-    background-color: #45A5FF;
+    /* background-color: #45A5FF; */
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     border-radius: 50%;
     animation: .5s linear 1s infinite alternate anima;
     &:nth-child(1) {
       animation-delay: 0.1s;
-      background-color: pink;
+      /* background-color: yellow; */
     }
     &:nth-child(2) {
       animation-delay: 0.2s;
-      background-color: yellow;
+      /* background-color: yellow; */
     }
 
     &:nth-child(3) {
       animation-delay: 0.3s;
-      background-color: red;
+      /* background-color: yellow; */
     }
 
     &:nth-child(4) {
       animation-delay: 0.4s;
-      background-color: grey;
+      /* background-color: yellow; */
 
     }
 
     &:nth-child(5) {
       animation-delay: 0.5s;
-      background-color: blue;
+      /* background-color: yellow; */
 
     }
 
     &:nth-child(6) {
       animation-delay: 0.6s;
-      background-color: green;
+      /* background-color: yellow; */
+
+    }
+    &:nth-child(7) {
+      animation-delay: 0.7s;
+      /* background-color: yellow; */
+
+    }
+    &:nth-child(8) {
+      animation-delay: 0.8s;
+      /* background-color: yellow; */
+
+    }
+    &:nth-child(9) {
+      animation-delay: 0.9s;
+      /* background-color: yellow; */
+
+    }
+    &:nth-child(10) {
+      animation-delay: 0.10s;
+      /* background-color: yellow; */
+
+    }
+    &:nth-child(11) {
+      animation-delay: 0.11s;
+      /* background-color: yellow; */
+
+    }
+    &:nth-child(12) {
+      animation-delay: 0.12s;
+      /* background-color: yellow; */
 
     }
   }
@@ -173,4 +201,3 @@ export const Loadingg = styled.div `
   }
 }
 `;
-

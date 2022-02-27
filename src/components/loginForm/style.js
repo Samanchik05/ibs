@@ -103,15 +103,15 @@ export const LoginContainer = styled.div `
   `;
 
 export const AppLogin = styled.div `
+  cursor: pointer;
 .btn-log{
   width:120px;
   height: 50px;
-display: flex;
-
+  display: flex;
   justify-content:space-between;
   padding:10px;
   border-radius: 10px;
-  border:1px solid #45A5FF;
+  border:2px ridge #9A3FB0;
   cursor:pointer;
   position: fixed;
   margin-top: -70px;
@@ -120,6 +120,7 @@ display: flex;
 .btn-log img{
   width:25px;
   height: 25px;
+  cursor: pointer;
   position:fixed;
 }
 .btn-log button{
@@ -128,8 +129,10 @@ display: flex;
   padding:10px;
   color: #45A5FF;
   background-color: #fff;
-  margin-left: 40px;
+  margin-left: 30px;
+  cursor: pointer;
   position:fixed;
+  margin-top: -4px;
 }
   `;
 
@@ -143,19 +146,13 @@ export const Div = styled.div `
   width: 100%;
   margin:auto;
   margin-left:90px;
-  
   `
 
 export const Label = styled.label `
-
   margin-left:105px;
-  
   `
-
 export const Label1 = styled.label `
-
   margin-left:120px;
-  
   `
 
 export const Error = styled.div `

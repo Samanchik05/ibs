@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import CartIcon from "../../assets/image/card.png";
+import CartIcon from "../../assets/image/shopp.svg";
 import Pluss from "../../assets/image/plus.svg";
 import Plus from "../../assets/image/plus.png";
 import cartsel from "../../assets/image/cart-sel.svg";

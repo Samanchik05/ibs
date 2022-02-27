@@ -17,12 +17,17 @@ function History() {
       {loading && (
         <Loadingg>
           <div className="loadingg">
+            <div>S</div>
+            <div>A</div>
+            <div>B</div>
+            <div>R</div>
             <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
+            <div>Q</div>
+            <div>I</div>
+            <div>L</div>
+            <div>I</div>
+            <div>N</div>
+            <div>G</div>
           </div>
         </Loadingg>
       )}

@@ -21,7 +21,7 @@ function MainPages({ props }) {
           <Route path="/products" element={<ProductPage />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/history" element={<History />} />
-          <Route path="/settings" element={<Settings />} />
+          {/* <Route path="/settings" element={<Settings />} /> */}
         </Routes>
       </MainPageContainer>
     </>
